@@ -41,7 +41,7 @@ def test_Facebook_Login_Functionality_with_Invalid_Email_and_Password():
     password.clear()
     password.send_keys(Login_Invalid_Password)
     sleep(2)
-    driver.find_element(By.XPATH, Login_Button).click()  # Click login button
+    driver.find_element(By.XPATH, Login_Button).click()  # Click login button.
     sleep(2)
     Error_message = driver.find_element(By.XPATH, Login_Invalid_EmailAndPassword_ErrorMessage).text
     assert 'Invalid username or password' == Error_message

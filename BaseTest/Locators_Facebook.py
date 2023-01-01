@@ -10,7 +10,7 @@ Login_Invalid_Email = "asffsafuts"
 Login_Invalid_Password = "32454hfr6"
 
 
-# Facebook Login Paths
+# Facebook Login Paths.
 Input_Login_Email_Address_Path = "//input[@id='email']"
 input_login_Password_path = "//input[@id='pass']"
 Login_Button = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[2]/button[1]"
@@ -56,3 +56,9 @@ SignUp_ButtonPath = "/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/
 Email_ConformationPath = "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"
 Continue_ButtonPath = "/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/form[1]/div[2]/div[1]/button[1]"
 Ok_ButtonPath = "//a[contains(text(),'OK')]"
+Error_nullAll = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_InvalidEmail = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_nullGender = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_nullFirstName = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_nullLastName = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"
+Error_Birthday = "/html[1]/body[1]/div[7]/div[1]/div[1]/div[1]"

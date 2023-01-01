@@ -80,7 +80,7 @@ def test_Facebook_ForgetPassword_Functionality_with_Null_Email():
     sleep(2)
     driver.find_element(By.XPATH, ForgetPassword_Path).click()  # Click Forget Password link
     sleep(2)
-    findYourAccount_Page = driver.find_element(By.XPATH,FindYourAccount_Path).text  # Display Find Your Account page
+    findYourAccount_Page = driver.find_element(By.XPATH,FindYourAccount_Path).text  # Display Find Your Account page.
     assert "Find Your Account" == findYourAccount_Page
     sleep(2)
     driver.find_element(By.XPATH,Email_Search_Button).click()  # Click Search button
