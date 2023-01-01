@@ -4,7 +4,7 @@
 Facebook_Web_Address = "https://www.facebook.com/"
 
 # Facebook information
-Login_Valid_Email = "dcena06@gmail.com"
+Login_Valid_Email = "davidisking@gmail.com"
 Login_Valid_Password = "password"
 Login_Invalid_Email = "asffsafuts"
 Login_Invalid_Password = "32454hfr6"
