@@ -33,11 +33,12 @@
 >* By using this I made 2 directory files this are:
 >* ............1.Test (In this there are 3 py file)
 >* ............2.BaseTest (in this there is 1 py file)
->* to run this test I used Chrome open-source web browser to Run my codes using Pytest. 
+>* to run this test I used Chrome and FireFox open-source web browser to Run my codes using Pytest. 
 >>* the signup/registration part there are 1 valid functional test and 6 Invalid functional tests
 >>* the Login part there are 1 valid functional test and 4 Invalid functional tests
 >>* the Forget-password part there are 1 valid functional test and 2 Invalid functional tests
->>* Totaly there are 15 functional tests
+>>* Totaly there are 15 functional tests 
+>>* This project also Build using OOP and have Multiple class.
 
 
 # 🛠️ Project Tools and Packages Used 
