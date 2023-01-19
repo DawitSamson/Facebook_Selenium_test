@@ -20,7 +20,7 @@ class Test_Valid_ForgetPassword(BaseTest):
                                                      ResetYourPasswordPage_ElementPath).text  # Display Reset Your Password Page
         assert 'Reset Your Password' == ResetYourPassword_Page
         driver.find_element(By.XPATH, SendCodeViaEmailButton_ElementPath).click()  # Select "Send code via email" button
-        driver.find_element(By.XPATH, ResetPassword_continueButton).click()  # Click on Continue Button
+        driver.find_element(By.XPATH, ResetPassword_continueButton).click()   # Click on Continue Button
         securityCodePage = driver.find_element(By.XPATH,
                                                EnterSecurityCodePage_ElementPath).text  # Display Enter security code page
         assert "Enter security code" == securityCodePage

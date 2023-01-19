@@ -37,4 +37,3 @@ class Test_Valid_Register(BaseTest):
         Facebook_Home = driver.current_url  # Display Facebook User Home page
         assert Facebook_Home == Facebook_Web_Address
         super().tear_down()
-

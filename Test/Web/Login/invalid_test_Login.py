@@ -54,7 +54,7 @@ class Test_Invalid_Login(BaseTest):
         email = driver.find_element(By.XPATH, Input_Login_Email_Address_Path)
         email.clear()
         email.send_keys(Login_Valid_Email)
-        driver.find_element(By.XPATH, Login_Button).click()  # Click login button
+        driver.find_element(By.XPATH, Login_Button).click()   # Click login button
         Error_message = driver.find_element(By.XPATH, Login_Blank_EmailAndPassword_ErrorMessage).text
         assert 'Invalid username or password' == Error_message
         super().tear_down()

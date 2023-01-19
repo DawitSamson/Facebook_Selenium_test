@@ -10,7 +10,7 @@ class Test_Valid_Login(BaseTest):
         email.send_keys(Login_Valid_Email)          # enter valid email
         password = driver.find_element(By.XPATH, input_login_Password_path)
         password.clear()
-        password.send_keys(Login_Valid_Password)            # enter valid password
+        password.send_keys(Login_Valid_Password)             # enter valid password
         driver.find_element(By.XPATH, Login_Button).click()  # Click login button
         Facebook_Home = driver.current_url
         assert Facebook_Home == Facebook_Web_Address

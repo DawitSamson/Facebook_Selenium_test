@@ -20,7 +20,6 @@ Login_ValidEmail_And_InvalidPassword_ErrorMessage = "//div[contains(text(),'Inva
 Login_InvalidEmail_And_ValidPassword_ErrorMessage = "//div[contains(text(),'Invalid username or password')]"
 Login_Blank_EmailAndPassword_ErrorMessage = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/div[1]/div[2]/a[1]"
 
-
 # Facebook ForgetPassword Paths
 ForgetPassword_Path = "//a[contains(text(),'Forgotten password?')]"
 FindYourAccount_Path = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/h2[1]"

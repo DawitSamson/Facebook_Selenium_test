@@ -35,6 +35,3 @@ def is_element_exist(text, webElement):
     except NoSuchElementException:
         return ''
 
-
-
-

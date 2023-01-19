@@ -123,7 +123,7 @@ class Test_Invalid_Register(BaseTest):
         surname_box = driver.find_element(By.NAME, LastName_ElementPath)
         surname_box.send_keys("belay")  # entering Last name
         registerEmail_box = driver.find_element(By.NAME,EmailInput_ElementPath)
-        registerEmail_box.send_keys("youremail@****.com")  # entering email address
+        registerEmail_box.send_keys("youremail@****.com")   # entering email address
         registerReEnterEmail_box = driver.find_element(By.NAME,EmailReEnter_ElementPath)
         registerReEnterEmail_box.send_keys("youremail@****.com")  # entering Re-enter email address
         registerPassword_box = driver.find_element(By.NAME,Password_ElementPath)
